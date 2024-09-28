@@ -5,7 +5,7 @@
   "keywords": ["shapefile", "shp", "shx", "dbf", "writer", "esri"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kovava/shp-io"
+    "url": "https://github.com/kovava/shp-io.git"
   },
   "type": "module",
   "main": "./dist/index.js",
@@ -30,5 +30,8 @@
   },
   "dependencies": {
     "@types/geojson": "^7946.0.14"
+  },
+  "publishConfig": {
+    "@kovava:registry": "https://npm.pkg.github.com/"
   }
 }
