@@ -3,7 +3,7 @@ import {FeatureCollection} from 'geojson';
 import {dbfWrite} from './dbf-file';
 import {shpShxWrite} from './shp-shx-file';
 
-export const shpSave = async (
+export const shpWrite = async (
   featureCollection: FeatureCollection,
   shpWritable: Writable,
   shxWritable: Writable,

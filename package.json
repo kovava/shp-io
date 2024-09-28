@@ -1,6 +1,6 @@
 {
   "name": "shp-io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESRI Shapefile format writer",
   "keywords": ["shapefile", "shp", "shx", "dbf", "writer", "esri"],
   "repository": {

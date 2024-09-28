@@ -10,6 +10,7 @@ export const writeToStream = async (buffer: FileBuffer, writable: Writable) => {
   for (const chunk of buffer) {
     await safeWrite(writable, chunk);
   }
+  writable.end();
 };
 
 const safeWrite = async (writable: Writable, buffer: Buffer) => {
